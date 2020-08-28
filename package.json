@@ -1,0 +1,30 @@
+{
+  "name": "server_mysql",
+  "version": "1.0.0",
+  "description": "This will be the server for many of the ChinDowns Apps.  The server is running Node.js with a MySQL database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chindowns/server_mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chindowns/server_mysql/issues"
+  },
+  "homepage": "https://github.com/chindowns/server_mysql#readme",
+  "devDependencies": {
+    "dot-env": "0.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  }
+}
